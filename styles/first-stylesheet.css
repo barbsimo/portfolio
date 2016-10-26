@@ -1,0 +1,58 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: navy;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+h2 {
+  text-align: left;
+  font-style: italic;
+}
+h3 {
+  text-align: center;
+}
+p {
+  border-style: solid black;
+  margin-top: 100px;
+  padding: 25px 25px 25px 25px;
+  font-family: "Times New Roman", Times, serif;
+} 
+p.capitalize {
+  text-transform: capitalize;
+}
+p.uppercase {
+ text-transform: uppercase;
+}
+p.small {
+  line-height: 0.8;
+}
+div {
+  width: 300px;
+  border: 25px solid navy;
+  padding: 25px;
+  margin: 25px;
+  background-color: grey;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+table, th, td {
+   border: 1px solid black;
+}
